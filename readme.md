@@ -6,17 +6,17 @@ Hi OVO, here is a little demo I have made for you to show you how I meet some of
 
 Clone the repo down and run `npm install`
 
-Paste my Google business account credentials and token in the root folder.
+Paste my Google business account credentials and token in the root folder (attached in the email).
 
 # Run
 
 There are 4 commands currently implemented
 
-`clean` - deletes all users apart fro the main admin (but they get are divorced as their spouse no longer exists)
+`clean` - deletes all users apart from the main admin (but they get divorced as their spouse no longer exists :( )
 
 `gen` - generates 10 new users with randomly assigned names.
 
-`list` - lists 10 users an their marital status
+`list` - lists 10 users and their marital status
 
 `spouse` spousifies all users by pairing them up randomly and setting their relationship type to spouse and value to each other.
 
