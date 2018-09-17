@@ -1,10 +1,3 @@
-// onboarding and user provisioning
-// API call based user provisioning 
-
-// gcp and gsuite sides - like GAM or through the APIs 
-// node.js 
-// internal web apps/chrome extensions
-
 const fs = require('fs');
 const readline = require('readline');
 const {google} = require('googleapis');
@@ -19,17 +12,11 @@ module.exports = {
     fs.readFile('credentials.json', (err, content) => {
       if (err) return console.error('Error loading client secret file', err);
 
-      // Authorize a client with the loaded credentials, then call the
-      // Directory API.
+      // Authorize a client with the loaded credentials
       authorize(JSON.parse(content), callback);
     });
   },
-
 }
-
-
-
-
 
 /**
  * Create an OAuth2 client with the given credentials, and then execute the
