@@ -1,6 +1,6 @@
 # About
 
-Hi OVO, here is a little demo I have made for you to show you how I meet some of your reqs. Spousify is a **node.js** command line app built on top of the **Google Admin Directory API**. It lets you generate some random users and add them to the Google Admin console. You can then see who the users are and delete them if you like. The main feature is Spousify which automatically weds each user with another to automate the marriage process :)
+Spousify is a **node.js** command line app built on top of the **Google Admin Directory API**. It lets you generate some random users and add them to the Google Admin console. You can then see who the users are and delete them if you like. The main feature is Spousify which automatically weds each user with another to automate the marriage process :)
 
 # Install
 
